@@ -1,0 +1,550 @@
+
+@media screen and (min-width: 1171px){
+
+    .top-info{
+        width: 43%;
+    }
+
+    .top-info h1 {
+        font-size: 5.5rem;
+    }
+
+
+    .top-info p{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .img-cute {
+        width: 56%;
+    }
+
+    .photo-dog-info p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .photo-dog-info h1 {
+        font-size: 2.2rem;
+    }
+
+    .new-home h1 {
+        font-size: 3.2rem;
+    }
+
+    .btn {
+        padding: 1rem 3rem;
+    }
+
+    .img-family {
+        width: 80%;
+    }
+
+    .adopted p {
+        font-size: 1.5rem;
+    }
+
+    .photo-png p {
+        font-size: 1.3rem;
+    } 
+
+    .bot-info {
+        margin-top: -10.5rem;
+    }
+
+    .dog-img {
+        width: 95%;
+    }
+
+    .say-img {
+        width: 60%;
+    }
+    .others {
+        padding: 1.5rem 3rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1170px){
+
+    .top-info h1 {
+        font-size: 4.5rem;
+    }
+
+    .top-info p {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .btn {
+        padding: 1rem 3rem;
+    }
+
+    .middle-container {
+       display: block;
+    }
+
+    .img-cute {
+        width: 55%;
+        justify-self: end;
+    }
+
+    .img-family {
+        width: 60%;
+    }
+
+    .photo-dog {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .photo-dog-info{
+    width: 75%;
+    }
+
+
+    .new-home h1 {
+        padding-top: 8rem;
+        text-align: center;
+    }
+
+    .new-home {
+        display: grid;
+        justify-items: center;
+    }
+
+    .btn-others{
+        padding-top: 5rem;
+    }
+
+    .others {
+        padding: 1.5rem 3rem;
+    }
+
+
+    .adopted p {
+        font-size: 1.4rem;
+    }
+
+    .photo-png p {
+        font-size: 1.2rem;
+    }
+    
+
+    .more {
+        margin-bottom: 13rem;
+    }
+
+    .bot-info {
+        margin-top: -8.5rem;
+    }
+
+    .dog-img {
+        width: 95%;
+    }
+
+    .say-img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1411px){
+    .bot-info {
+        margin-top: -13.7rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1024px){
+ 
+/* TOP */
+
+nav{
+    justify-content: space-between;
+}
+
+.top-container {
+    justify-content: flex-end;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-links{
+    display: none;
+}
+
+.nav-links li{
+    opacity: 0;
+}
+
+.nav-links a{
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+
+.nav-active{
+    position: absolute;
+    right: 0px;
+    height: 30vh;
+    top: 8vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+
+.burger{
+display: block;
+cursor: pointer;
+}
+
+.top-info {
+    width: 50%;
+}
+
+.top-info h1 {
+    font-size: 2.3rem;
+}
+
+.top-info p {
+    font-size: 1.1rem;
+}
+
+.btn {
+    padding: 1.2rem 2.2rem;
+    font-size: 1.7rem;
+}
+
+.img-dog {
+    width: 47%;
+}
+
+
+/* Middle */
+
+
+.middle-container {
+    display: block;
+ }
+
+ .img-cute {
+     width: 95%;
+ }
+
+ .img-family {
+     width: 90%;
+ }
+
+ .photo-dog {
+     grid-template-columns: 1fr 2fr;
+ }
+
+ .photo-dog-info h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+ .photo-dog-info p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+ }
+
+ .new-home h1 {
+    padding-top: 8rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.new-home {
+    display: grid;
+    justify-items: center;
+}
+
+.btn-others{
+    padding-top: 5rem;
+}
+
+.others {
+    padding: 1.2rem 2.2rem;
+    font-size: 1.7rem;
+}
+
+.adopted {
+    width: 90%;
+}
+.adopted h1 {
+    font-size: 3rem;
+}
+
+.img-adopted {
+    width: 75%;
+}
+
+.adopted p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+
+.info-png h1 {
+    font-size: 2.5rem;
+    padding: 6rem 0;
+}
+
+.photo-png {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.photo1, .photo2, .photo3 {
+    justify-self: center;
+    margin-bottom: 2rem;
+    width: 75%;
+}
+
+.png1 {
+    width: 55%;
+}
+
+.photo-png p {
+    font-size: 1.3rem;
+}
+
+.more {
+    margin-bottom: 7rem;
+}
+
+.another-btn {
+    font-size: 1.5rem;
+    padding: 0.8rem 3rem;
+}
+
+/* Bot */
+
+.say-img {
+    width: 65%;
+}
+
+.dog-img {
+    margin-top: 8rem;
+    width: 100%;
+}
+
+.bot-info {
+    margin-top: -3.2rem;
+    padding: 0;
+    border: 15px solid var(--secondary-color);
+}
+
+.main-block{
+    display: block;
+    margin-top: 5rem;
+}
+
+.main-block h1 {
+    font-size: 2.5rem;
+}
+
+form {
+    width: 85%;
+    padding: 20px;
+}
+
+iframe{
+    display: none;
+}
+
+
+input, select {
+    font-size: 1.2rem;
+}
+
+
+
+/* Footer */
+
+.footer {
+    font-size: 1rem;
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.box-program {
+    grid-column: 1/3;
+    margin-bottom: 1rem;
+}
+
+.box-contact{
+    padding-left: 1rem;
+}
+
+
+.box-contact h2, .box-about h2 {
+    padding: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.box-contact p, .box-about p, .box-program p {
+    font-size: 1.1rem;
+}
+
+.box-contact h3, .box-about h3, .box-program h3 {
+    font-size: 1.3rem;
+}
+
+.box-about, .box-contact a, .box-program {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.privacy-h2{
+    margin-left: auto;
+}
+
+.list {
+    display: block;
+    font-size: 0.8rem;
+}
+
+}
+
+@media screen and (max-width: 1123px) and (min-width: 870px){
+    .bot-info {
+        margin-top: -7.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 500px){
+    .bot-info {
+        margin-top: -5.6rem;
+    }
+
+    .say-img {
+        width: 75%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 869px){
+    .bot-info {
+        margin-top: -6.5rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .top-info p {
+        font-size: 1.5rem;
+    }
+
+    .top-info h1 {
+        font-size: 3.5rem;
+    }
+
+    .img-dog{
+        width: 30%;
+    }
+
+    .top-info{
+        width: 38%;
+    }
+    .top-container {
+        justify-content: center;
+    }
+
+    .img-cute {
+        width: 62%;
+    }
+    .photo-dog-info p {
+        font-size: 1.5rem;
+    }
+    .photo-dog-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .photo-dog-info{
+        width: 75%;
+    }
+
+    .nav-active {
+        height: 30vh;
+        width: 30%;
+    }
+
+    .nav-links a {
+        color: var(--color-white);
+    }
+    
+
+    .adopted p {
+        font-size: 1.5rem;
+    }
+
+    .img-adopted {
+        width: 50%;
+    }
+    .photo-png p {
+        font-size: 1.5rem;
+    }
+
+    .another-btn {
+        font-size: 2rem;
+        padding: 0.8rem 3rem;
+    }
+
+    .main-block h1 {
+        font-size: 3.5rem;
+    }
+
+    input, select {
+        font-size: 1.7rem;
+    }
+
+    .box-contact p, .box-about p, .box-program p {
+        font-size: 1.5rem;
+    }
+
+    .box-contact h2, .box-about h2, .box-program h2 {
+        padding: 1rem 0 1rem 0;
+        font-size: 2.5rem;
+    }
+
+    .box-contact h3, .box-about h3, .box-program h3 {
+        font-size: 1.9rem;
+    }
+}
+
+
+
+@keyframes navLinkFade{
+    from{
+    opacity: 0;
+    transform:translateX(50px)
+    }
+
+    to{
+     opacity: 1;
+     transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
